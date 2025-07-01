@@ -1,7 +1,10 @@
+import jsimg from '../../assets/images/travelplanner.png'
+import reactimg from '../../assets/images/ems.png'
+import quickKartimg from '../../assets/images/quickKart.png'
 export const projects = [
   {
     title: "Employee Management System",
-    image: "src/assets/images/ems.png",
+    image: reactimg,
     description: `
 Nexwork is a real-time employee management system with role-based access for Admins and Users. 
 Admins can assign tasks, monitor progress, and manage leave requests, while users can view assigned tasks and apply for leaves. 
@@ -15,7 +18,7 @@ Key features include skeleton loaders, modal forms, toast notifications, and Rec
   },
   {
     title: "QuickKart E-commerce",
-    image: "src/assets/images/quickkart.png",
+    image: quickKartimg,
     description: `
 QuickKart is a modern full-stack e-commerce platform with product listing, cart, secure checkout, and order tracking. 
 The frontend is built using React with Zustand for state, styled using Tailwind CSS, and animated using Framer Motion. 
@@ -28,7 +31,7 @@ It integrates Stripe for payments, Cloudinary for image uploads, and Mailtrap fo
   },
   {
     title: "Travel Planner Platform",
-    image: "src/assets/images/travelplanner.png",
+    image: jsimg,
     description: `
 The Travel Planner is a dynamic web app that lets users explore destinations, connect with local guides, and book customized experiences. 
 Built using vanilla JavaScript (ES6+), Bootstrap, and Firebase, it features responsive design, real-time data syncing, 

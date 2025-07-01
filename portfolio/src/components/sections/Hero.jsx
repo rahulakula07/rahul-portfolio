@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Github, Linkedin } from 'lucide-react'
+import myimage from "../../assets/images/rahul.jpg"
 
 export default function Hero({ scrollToSection }) {
     return (
@@ -61,7 +62,7 @@ export default function Hero({ scrollToSection }) {
                                 <motion.img
                                     whileHover={{ scale: 1.05 }}
                                     transition={{ type: 'spring', stiffness: 200 }}
-                                    src="/src/assets/images/rahul.jpg"
+                                    src={myimage}
                                     alt="Rahul Akula"
                                     className="w-full h-full object-cover"
                                 />

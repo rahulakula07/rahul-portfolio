@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import { projects } from '../data/ProjectsData'
 
+
 export default function Projects() {
   return (
     <section id="projects" className="py-20 px-4 bg-gray-50 dark:bg-gray-900">
