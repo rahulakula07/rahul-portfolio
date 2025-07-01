@@ -1,6 +1,6 @@
 import jsimg from '../../assets/images/travelplanner.png'
 import reactimg from '../../assets/images/ems.png'
-import quickKartimg from '../../assets/images/quickKart.png'
+import quickKartimg from '../../assets/images/quickkart.png'
 export const projects = [
   {
     title: "Employee Management System",
