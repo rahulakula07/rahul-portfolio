@@ -70,18 +70,18 @@ export default function About() {
                         {/* Frontend Skills - Now a "review kind of thing" with progress bars */}
                         <div className="mb-8">
                             <h4 className="font-medium mb-4">Frontend Skills</h4>
-                            <div className="space-y-4"> {/* Adds space between skill items */}
+                            <div className="space-y-4"> 
                                 {frontendSkills.map((skill, index) => (
                                     <div key={index} className="flex items-center">
                                         <span className="w-1/3 font-semibold text-gray-700 dark:text-gray-300">{skill.name}</span>
                                         <div className="w-2/3 bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
                                             <motion.div
                                                 initial={{ width: 0 }}
-                                                whileInView={{ width: `${skill.value}%` }} // Assuming skill.value is a percentage
+                                                whileInView={{ width: `${skill.value}%` }}
                                                 viewport={{ once: true }}
-                                                transition={{ duration: 1, delay: 0.2 + index * 0.1 }} // Staggered animation
+                                                transition={{ duration: 1, delay: 0.2 + index * 0.1 }} 
                                                 className="bg-blue-500 h-2.5 rounded-full"
-                                                style={{ maxWidth: '100%' }} // Ensure it doesn't overflow
+                                                style={{ maxWidth: '100%' }} 
                                             ></motion.div>
                                         </div>
                                     </div>

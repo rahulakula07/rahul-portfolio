@@ -10,13 +10,17 @@ export const backendSkills = [
   { name: 'Node.js', value: 75 },
   { name: 'Express', value: 70 },
   { name: 'MongoDB', value: 75 },
-  { name: 'Firebase', value: 70 },
+  { name: 'Firebase', value: 80 },
 ]
 
 export const otherSkills = [
   { name: 'Git', value: 75 },
-  { name: 'Tailwind', value: 75 },
+  { name: 'Tailwind', value: 100 },
   { name: 'Python', value: 75 },
 ]
+ 
+export const COLORS = ['#0EA5E9', '#22C55E', '#EAB308', '#EF4444']; 
 
-export const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042']
+
+
+
