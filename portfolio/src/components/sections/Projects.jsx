@@ -25,20 +25,24 @@ export default function Projects() {
               transition={{ duration: 0.6, delay: index * 0.2 }}
               className="flex flex-col md:flex-row items-center gap-10 bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-6 md:p-10 hover:shadow-2xl transition"
             >
-              <motion.div
+              {/* Clickable image redirecting to demoLink */}
+              <motion.a
+                href={project.demoLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 transition={{ type: 'spring', stiffness: 150 }}
-                className="md:w-1/2 w-full rounded-xl overflow-hidden"
+                className="md:w-1/2 w-full rounded-xl overflow-hidden block"
               >
                 <motion.img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover rounded-xl shadow-md"
+                  className="w-full h-full object-cover rounded-xl shadow-md cursor-pointer"
                   initial={{ opacity: 0, scale: 0.9 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.6 }}
                 />
-              </motion.div>
+              </motion.a>
 
               <motion.div
                 className="md:w-1/2 w-full"
